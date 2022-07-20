@@ -5,7 +5,7 @@ body{
 
 .first-part{
     height: 350px;
-    width: 80%;
+    width: 90%;
    display: flex;
    padding: 30px;
   background-color: black;
@@ -115,5 +115,19 @@ body{
 .last-part{
     color: aliceblue;
     background-color: black;
-    width: 1000px;
+    width: 100%;
+    height: 200px;
+}
+.footer-text h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 29px;
+    
+}
+.last-text{
+  display: flex;
+  margin-left: 30%;
+}
+.last-text p{
+    margin: 20px;
 }
