@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(221, 239, 239);
+    justify-content: center;
+}
+
+.first-part{
+    height: 350px;
+    width: 80%;
+   display: flex;
+   padding: 30px;
+  background-color: black;
+   border-radius: 12px;
+   margin-left: 20px;
+   
+}
+.head-img{
+    margin-bottom: 13px;
+    padding: 23px;
+    height: 120px;
+   
+}
+.heading-tag{
+    color: aliceblue;
+    margin: 30px;
+    padding: 0px;
+    margin-bottom: 20px;
+    
+}
+.heading-tag h1{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head-button button{
+    font-size:18px;
+    font-weight: bold;
+    color: aliceblue;
+    height: 40px;
+    width: 120px;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+   
+
+.second-part{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.upcoming-match{
+    padding: 50px;
+   height:120px ; 
+   width: 120px;
+   background-color: black;
+   margin-left: 22px;
+   margin-right: 14px;
+   border-radius: 10px ;
+}
+
+.second-part button{
+    height: 40px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.button3{
+    background-color: chocolate;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.tresnsfer-live{
+    
+    height:100px ;
+    width: 200px;
+ }
+ .tresnsfer-live button{
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    margin-top: -10px;
+    margin-left: -4px;
+ }
+   
+ .tresnsfer-live h4{
+       padding: 1px;
+       margin-top: -4px;
+    }
+    .tresnsfer-live i{
+        padding: 6px;
+        margin-top: -14px;
+    }
+
+.tresnsfer-live{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:1px;
+}
+.photo1{
+    padding: 5px;
+}
+.last-part{
+    color: aliceblue;
+    background-color: black;
+    width: 1000px;
+}
